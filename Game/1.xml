@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="euc-kr" ?> 
+<BlockGame>
+<Screen>
+	<Size w="700" h="600"></Size>
+</Screen>
+<GameInfoPanel>
+	<Bg r="0" g="0" b="0"></Bg>
+</GameInfoPanel>
+<GamePanel>
+	<Stage round="2" music="music/mainMusic.wav">
+		<Bg img="img/space2.png"></Bg>
+		
+		<Block>
+			<Obj x="190" y="10" w="40" h="40" attack="0" attackSpeed="1000" dir="1" speed="50" hit="2" score="5" distance="100" img="img/ghost.png"/>
+			<Obj x="310" y="10" w="40" h="40" attack="0" attackSpeed="1000" dir="1" speed="50" hit="2" score="5" distance="100" img="img/ghost.png"/>
+			<Obj x="430" y="10" w="40" h="40" attack="0" attackSpeed="1000" dir="1" speed="50" hit="2" score="5" distance="100" img="img/ghost.png"/>
+			
+			<Obj x="130" y="70" w="40" h="40" attack="0" attackSpeed="1000" dir="0" speed="1" hit="1" score="5" distance="100" img="img/zen.png"></Obj>
+			<Obj x="250" y="70" w="40" h="40" attack="0" attackSpeed="1000" dir="0" speed="1" hit="1" score="5" distance="100" img="img/zen.png"/>
+			<Obj x="370" y="70" w="40" h="40" attack="0" attackSpeed="1000" dir="0" speed="1" hit="1" score="5" distance="100" img="img/zen.png"/>
+			<Obj x="490" y="70" w="40" h="40" attack="0" attackSpeed="1000" dir="0" speed="1" hit="1" score="5" distance="100" img="img/zen.png"/>
+			
+			<Obj x="190" y="130" w="40" h="40" attack="0" attackSpeed="1000" dir="1" speed="50" hit="2" score="5" distance="100" img="img/ghost.png"/>
+			<Obj x="430" y="130" w="40" h="40" attack="0" attackSpeed="1000" dir="1" speed="50" hit="2" score="5" distance="100" img="img/ghost.png"/>
+			
+			<Obj x="30" y="190" w="40" h="40" attack="1" attackSpeed="30" dir="1" speed="50" hit="3" score="5" distance="100" img="img/monsta.png"></Obj>
+			<Obj x="490" y="190" w="40" h="40" attack="1" attackSpeed="20" dir="-1" speed="50" hit="3" score="5" distance="100" img="img/monsta.png"></Obj>
+			
+			<Obj x="190" y="250" w="40" h="40" attack="0" attackSpeed="1000" dir="1" speed="50" hit="2" score="5" distance="100" img="img/ghost.png"/>
+			<Obj x="310" y="250" w="40" h="40" attack="0" attackSpeed="1000" dir="1" speed="50" hit="2" score="5" distance="100" img="img/ghost.png"/>
+			<Obj x="430" y="250" w="40" h="40" attack="0" attackSpeed="1000" dir="1" speed="50" hit="2" score="5" distance="100" img="img/ghost.png"/>
+			
+			<Obj x="130" y="310" w="40" h="40" attack="1" attackSpeed="50" dir="0" speed="50" hit="1" score="5" distance="100" img="img/zen.png"></Obj>
+			<Obj x="250" y="310" w="40" h="40" attack="0" attackSpeed="1000" dir="0" speed="1" hit="1" score="5" distance="100" img="img/zen.png"/>
+			<Obj x="370" y="310" w="40" h="40" attack="0" attackSpeed="1000" dir="0" speed="1" hit="1" score="5" distance="100" img="img/zen.png"/>
+			<Obj x="490" y="310" w="40" h="40" attack="0" attackSpeed="1000" dir="0" speed="1" hit="1" score="5" distance="100" img="img/zen.png"/>
+		</Block>
+		
+		<Wall>
+			<Obj x="190" y="190" w="40" h="40" dir="0" speed="55" hit="2" distance="150" img="img/rock.png"></Obj>
+			<Obj x="230" y="190" w="40" h="40" dir="1" speed="55" hit="0" distance="150" img="img/rock.png"></Obj>
+			<Obj x="270" y="190" w="40" h="40" dir="1" speed="55" hit="1" distance="150" img="img/rock.png"></Obj>
+		</Wall>
+		
+		<Player x="310" y="450" w="40" h="40" dir="-1" type="0" img="img/player.png">
+			<Bullet w="10" h="10" power="1" speed="20" img="img/bubble2.png" music="music/attack.wav"></Bullet>
+		</Player>
+	</Stage>
+</GamePanel>
+</BlockGame>
