@@ -14,6 +14,5 @@ Java로 구현한 XML 슈팅 게임<br/>
 
 ## 🖥️ 실행 화면
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9054cd45-6d67-4431-a91f-afe653dd1b78" width="550"/><br/>
-  <img src="https://github.com/user-attachments/assets/119c11f1-ac6d-41aa-90de-df3e14e95f54" width="750"/><br/>
+  <img src="https://github.com/user-attachments/assets/7dddfa1b-91df-48ad-baed-392a0ecd7e8a" width="550"/><br/>
 </p>
