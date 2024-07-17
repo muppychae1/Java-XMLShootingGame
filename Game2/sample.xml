@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="euc-kr" ?> 
+<BlockGame>
+	<Screen>
+		<Size w="700" h="600"></Size>
+	</Screen>
+	<GameInfoPanel>
+		<Bg r="0" g="0" b="0"></Bg>
+	</GameInfoPanel>
+	<GamePanel>
+		<Bg img="img/space2.png"></Bg>
+		<Block>
+			<!-- <Obj x="10" y="10" w="40" h="40" level="0" img="img/zen.png"></Obj>
+			<Obj x="70" y="10" w="40" h="40" level="1" img="img/ghost.png"/>
+			<Obj x="130" y="10" w="40" h="40" level="2" img="img/monsta2.png"/>
+			<Obj x="10" y="60" w="40" h="40" level="3" img="img/pulpul.png"></Obj>
+			<Obj x="70" y="60" w="40" h="40" level="4" img="img/banebou.png"/> -->
+			
+			<Obj x="190" y="10" w="40" h="40" level="0" img="img/ghost.png"/>
+			<Obj x="310" y="10" w="40" h="40" level="0" img="img/ghost.png"/>
+			<Obj x="430" y="10" w="40" h="40" level="0" img="img/ghost.png"/>
+			
+			
+			<Obj x="130" y="70" w="40" h="40" level="0" img="img/zen.png"></Obj>
+			<Obj x="250" y="70" w="40" h="40" level="0" img="img/zen.png"/>
+			<Obj x="370" y="70" w="40" h="40" level="0" img="img/zen.png"/>
+			<Obj x="490" y="70" w="40" h="40" level="0" img="img/zen.png"/>
+			
+			<Obj x="190" y="130" w="40" h="40" level="0" img="img/ghost.png"/>
+			<Obj x="430" y="130" w="40" h="40" level="0" img="img/ghost.png"/>
+			
+			<Obj x="130" y="190" w="40" h="40" level="0" img="img/zen.png"></Obj>
+			<Obj x="490" y="190" w="40" h="40" level="0" img="img/zen.png"></Obj>
+			
+			<Obj x="190" y="250" w="40" h="40" level="0" img="img/ghost.png"/>
+			<Obj x="310" y="250" w="40" h="40" level="0" img="img/ghost.png"/>
+			<Obj x="430" y="250" w="40" h="40" level="0" img="img/ghost.png"/>
+			
+			<Obj x="130" y="310" w="40" h="40" level="0" img="img/zen.png"></Obj>
+			<Obj x="250" y="310" w="40" h="40" level="0" img="img/zen.png"/>
+			<Obj x="370" y="310" w="40" h="40" level="0" img="img/zen.png"/>
+			<Obj x="490" y="310" w="40" h="40" level="0" img="img/zen.png"/>
+			
+			<Wall x="190" y="190" w="40" h="40" level="0" img="img/rock.png"></Wall>
+			<Wall x="230" y="190" w="40" h="40" level="0" img="img/rock.png"></Wall>
+			<Wall x="270" y="190" w="40" h="40" level="0" img="img/rock.png"></Wall>
+			
+		</Block>
+		<Player x="310" y="450" w="40" h="40" level="0" img="img/player.png"></Player>
+	</GamePanel>
+</BlockGame>

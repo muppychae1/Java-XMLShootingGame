@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;BlockGameFrame2&apos; to &apos;BlockGameFrame&apos;&#x0D;&#x0A;- Original project: &apos;Professor&apos;&#x0D;&#x0A;- Original element: &apos;BlockGameFrame2&apos;&#x0D;&#x0A;- Renamed element: &apos;BlockGameFrame&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BlockGameFrame2&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{BlockGameFrame2.java[BlockGameFrame2" matchStrategy="1" name="BlockGameFrame" qualified="false" references="true" similarDeclarations="false" stamp="1641370711712" textual="false" version="1.0"/>
+</session>

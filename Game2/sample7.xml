@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BlockGame>
+    <Screen>
+        <Size h="598" w="360"/>
+    </Screen>
+    <GamePanel>
+        <Bg img="C:\Users\user\Desktop\2022겨울방학\동계 학습 프로젝트\동계 학습 프로젝트\샘플 코드\Tools\imgBg\space.png" music="C:\Users\user\Desktop\2022겨울방학\동계 학습 프로젝트\동계 학습 프로젝트\샘플 코드\Tools\music\musicBackground\mainMusic.wav">
+            <Info b="255" g="0" h="30" r="255" text="Life : " type="1" w="150" x="200" y="10"/>
+            <Info b="0" g="255" h="30" r="255" text="Score :" type="0" w="150" x="20" y="33"/>
+        </Bg>
+        <Block>
+            <Obj attack="0" attackSpeed="50" dir="1" distance="70" h="50" hit="3" img="C:\Users\user\Desktop\2022겨울방학\동계 학습 프로젝트\동계 학습 프로젝트\샘플 코드\Tools\imgBlock\ghost.png" score="10" speed="50" w="50" x="156" y="82"/>
+            <Obj attack="1" attackSpeed="20" dir="-1" distance="50" h="50" hit="2" img="C:\Users\user\Desktop\2022겨울방학\동계 학습 프로젝트\동계 학습 프로젝트\샘플 코드\Tools\imgBlock\pulpul.png" score="20" speed="50" w="50" x="37" y="201"/>
+            <Obj attack="0" attackSpeed="50" dir="0" distance="100" h="50" hit="1" img="C:\Users\user\Desktop\2022겨울방학\동계 학습 프로젝트\동계 학습 프로젝트\샘플 코드\Tools\imgBlock\monsta.png" score="10" speed="50" w="50" x="267" y="194"/>
+        </Block>
+        <Wall>
+            <Obj dir="-1" distance="50" h="50" hit="1" img="C:\Users\user\Desktop\2022겨울방학\동계 학습 프로젝트\동계 학습 프로젝트\샘플 코드\Tools\imgWall\brick.png" speed="50" w="50" x="38" y="253"/>
+            <Obj dir="0" distance="100" h="50" hit="0" img="C:\Users\user\Desktop\2022겨울방학\동계 학습 프로젝트\동계 학습 프로젝트\샘플 코드\Tools\imgWall\rock.png" speed="50" w="50" x="212" y="339"/>
+            <Obj dir="1" distance="70" h="50" hit="1" img="C:\Users\user\Desktop\2022겨울방학\동계 학습 프로젝트\동계 학습 프로젝트\샘플 코드\Tools\imgWall\wall.png" speed="50" w="50" x="155" y="134"/>
+        </Wall>
+        <Player dir="1" h="50" img="C:\Users\user\Desktop\2022겨울방학\동계 학습 프로젝트\동계 학습 프로젝트\샘플 코드\Tools\imgPlayer\player.png" life="5" w="50" x="163" y="453">
+            <Bullet h="10" img="C:\Users\user\Desktop\2022겨울방학\동계 학습 프로젝트\동계 학습 프로젝트\샘플 코드\Tools\imgBullet\bubble2.png" music="C:\Users\user\Desktop\2022겨울방학\동계 학습 프로젝트\동계 학습 프로젝트\샘플 코드\Tools\music\musicBullet\attack.wav" power="1" speed="20" w="10"/>
+        </Player>
+    </GamePanel>
+</BlockGame>

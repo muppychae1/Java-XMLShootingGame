@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="euc-kr" ?> 
+<BlockGame>
+<Screen>
+	<Size w="560" h="700"></Size>
+</Screen>
+<GamePanel>
+	<Bg>snowBG.jpg</Bg>
+	<Block>
+		<Obj x="10" y="10" w="50" h="50" type="2" img="redblock.png"></Obj>
+		<Obj x="70" y="10" w="50" h="50" type="2" img="redblock.png"/>
+		
+		<Obj x="10" y="70" w="50" h="50" type="8" img="orangeblock.png"></Obj>
+		<Obj x="70" y="70" w="50" h="50" type="16" img="orangeblock.png"/>
+		<Obj x="130" y="70" w="50" h="50" type="16"  img="orangeblock.png" />
+		
+		<Obj x="10" y="130" w="50" h="50" type="4" img="blueblock.png"></Obj>
+		<Obj x="70" y="130" w="50" h="50" type="4" img="blueblock.png"></Obj>
+		<Obj x="130" y="130" w="50" h="50" type="4" img="blueblock.png"></Obj>
+		
+		<Obj x="190" y="10" w="170" h="170" type="30" img="snowball.png"></Obj>
+		
+		<Obj x="370" y="10" w="50" h="50" type="4" img="purpleblock.png"></Obj>
+		<Obj x="430" y="10" w="50" h="50" type="4" img="purpleblock.png"></Obj>
+		<Obj x="490" y="10" w="50" h="50" type="4" img="purpleblock.png"></Obj>
+		
+		<Obj x="370" y="70" w="50" h="50" type="8" img="yellowblock.png"></Obj>
+		<Obj x="490" y="70" w="50" h="50" type="8" img="yellowblock.png"></Obj>
+		
+		<Obj x="370" y="130" w="50" h="50" type="4" img="blueblock.png"></Obj>
+		<Obj x="430" y="130" w="50" h="50" type="4" img="blueblock.png"></Obj>
+		<Obj x="490" y="130" w="50" h="50" type="4" img="blueblock.png"></Obj>
+		
+		<Obj x="70" y="190" w="50" h="50" type="4" img="skyblueblock.png"></Obj>
+		<Obj x="130" y="190" w="50" h="50" type="4" img="greenblock.png"></Obj>
+		<Obj x="190" y="190" w="50" h="50" type="4" img="greenblock.png"></Obj>
+		<Obj x="250" y="190" w="50" h="50" type="4" img="greenblock.png"></Obj>
+		<Obj x="310" y="190" w="50" h="50" type="4" img="greenblock.png"></Obj>
+		<Obj x="370" y="190" w="50" h="50" type="4" img="greenblock.png"></Obj>
+		<Obj x="430" y="190" w="50" h="50" type="4" img="skyblueblock.png"></Obj>
+		<Obj x="490" y="190" w="50" h="50" type="4" img="skyblueblock.png"></Obj>
+		
+		<Obj x="10" y="250" w="50" h="50" type="4" img="purpleblock.png"></Obj>
+		<Obj x="70" y="250" w="50" h="50" type="4" img="purpleblock.png"></Obj>
+		<Obj x="130" y="250" w="50" h="50" type="4" img="purpleblock.png"></Obj>
+		<Obj x="190" y="250" w="50" h="50" type="4" img="greenblock.png"></Obj>
+		<Obj x="250" y="250" w="50" h="50" type="4" img="greenblock.png"></Obj>
+		<Obj x="310" y="250" w="50" h="50" type="4" img="greenblock.png"></Obj>
+		<Obj x="370" y="250" w="50" h="50" type="4" img="yellowblock.png"></Obj>
+		<Obj x="430" y="250" w="50" h="50" type="4" img="yellowblock.png"></Obj>
+		<Obj x="490" y="250" w="50" h="50" type="4" img="yellowblock.png"></Obj>
+		
+		
+	</Block>
+	<Item>
+		<Obj x="130" y="10" w="50" h="50" type="4" damage="4" img="star.png" />
+		<Obj x="430" y="70" w="50" h="50" type="8" change="1" img="snow.png"></Obj>
+		<Obj x="10" y="190" w="50" h="50" type="4" change="2" img="ruby.png"></Obj>
+	</Item>
+</GamePanel>
+</BlockGame>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<BlockGame>
+<Screen>
+	<Size w="700" h="600"></Size>
+</Screen>
+<GamePanel>
+	<Bg img="imgBg/ground.jpg" music="music/musicBackground/mario.wav">
+		<Info x="0" y="0" w="150" h="40" r="0" g="0" b="0" type="0" text="Score : "/>
+		<Info x="150" y="0" w="150" h="40" r="0" g="0" b="0" type="1" text="Life : "/>
+	</Bg>
+	
+	<Block>
+		<Obj x="70" y="10" w="40" h="40" attack="0" attackSpeed="1" dir="0" speed="50" hit="2" score="10" distance="0" img="imgBlock/turtle.png"/>
+		<Obj x="330" y="70" w="40" h="40" attack="0" attackSpeed="1" dir="0" speed="50" hit="3" score="10" distance="0" img="imgBlock/turtle.png"/>
+		
+		<Obj x="30" y="70" w="40" h="40" attack="0" attackSpeed="1" dir="1" speed="50" hit="1" score="15" distance="80" img="imgBlock/bomb.png"/>
+		<Obj x="370" y="130" w="40" h="40" attack="0" attackSpeed="1" dir="1" speed="40" hit="2" score="20" distance="190" img="imgBlock/shyGuy.png"/>
+		
+		<Obj x="220" y="250" w="40" h="40" attack="0" attackSpeed="1" dir="0" speed="50" hit="2" score="10" distance="100" img="imgBlock/shyGuy.png"/>
+		<Obj x="400" y="250" w="40" h="40" attack="0" attackSpeed="1" dir="0" speed="50" hit="2" score="10" distance="100" img="imgBlock/bomb.png"/>
+		
+		<Obj x="130" y="310" w="40" h="40" attack="0" attackSpeed="1" dir="0" speed="1" hit="1" score="5" distance="100" img="imgBlock/badMushroom.png"/>
+		<Obj x="310" y="310" w="40" h="40" attack="0" attackSpeed="1" dir="0" speed="1" hit="3" score="5" distance="100" img="imgBlock/badMushroom.png"/>
+		<Obj x="490" y="310" w="40" h="40" attack="0" attackSpeed="1" dir="0" speed="1" hit="1" score="5" distance="100" img="imgBlock/badMushroom.png"/>
+	</Block>
+	
+	<Wall>
+		<Obj x="30" y="130" w="40" h="40" dir="0" speed="1" hit="0" distance="0" img="imgWall/brick.png"></Obj>
+		<Obj x="70" y="130" w="40" h="40" dir="0" speed="1" hit="2" distance="0" img="imgWall/brick.png"></Obj>
+		<Obj x="110" y="130" w="40" h="40" dir="0" speed="1" hit="0" distance="0" img="imgWall/brick.png"></Obj>
+	
+		<Obj x="330" y="190" w="40" h="40" dir="1" speed="40" hit="0" distance="190" img="imgWall/brick.png"></Obj>
+		<Obj x="370" y="190" w="40" h="40" dir="1" speed="40" hit="3" distance="190" img="imgWall/brick.png"></Obj>
+		<Obj x="410" y="190" w="40" h="40" dir="1" speed="40" hit="1" distance="190" img="imgWall/brick.png"></Obj>
+	</Wall>
+	
+	<Player x="310" y="400" w="40" h="40" dir="1" life="10" img="imgPlayer/mario.png">
+		<Bullet w="20" h="20" power="1" speed="20" img="imgBullet/turtleBack.png" music="music/musicBullet/attack.wav"></Bullet>
+	</Player>
+</GamePanel>
+</BlockGame>

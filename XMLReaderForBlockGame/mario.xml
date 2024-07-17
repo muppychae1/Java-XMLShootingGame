@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="euc-kr" ?> 
+<BlockGame>
+<Screen>
+	<Size w="600" h="500"></Size>
+</Screen>
+<GamePanel>
+	<Bg>ground.png</Bg>
+	<Block>
+		<Obj x="10" y="10" w="50" h="50" type="2" img="banana.png"></Obj>
+		<Obj x="70" y="10" w="50" h="50" type="2" img="banana.png"/>
+		
+		<Obj x="10" y="70" w="50" h="50" type="8" img="squid.png"></Obj>
+		<Obj x="70" y="70" w="50" h="50" type="16" img="redturtle.png"/>
+		<Obj x="130" y="70" w="50" h="50" type="16"  img="redturtle.png" />
+		
+		<Obj x="10" y="130" w="50" h="50" type="4" img="monster.png"></Obj>
+		<Obj x="70" y="130" w="50" h="50" type="4" img="monster.png"></Obj>
+		
+		<Obj x="190" y="10" w="150" h="150" type="30" img="koopa.png"></Obj>
+		
+		<Obj x="350" y="10" w="50" h="50" type="4" img="monster.png"></Obj>
+		<Obj x="410" y="10" w="50" h="50" type="4" img="monster.png"></Obj>
+		<Obj x="530" y="10" w="50" h="50" type="4" img="monster.png"></Obj>
+		
+		<Obj x="350" y="70" w="50" h="50" type="8" img="squid.png"></Obj>
+		<Obj x="410" y="70" w="50" h="50" type="8" img="squid.png"></Obj>
+		<Obj x="470" y="70" w="50" h="50" type="8" img="squid.png"></Obj>
+		<Obj x="530" y="70" w="50" h="50" type="8" img="squid.png"></Obj>
+	</Block>
+	<Item>
+		<Obj x="130" y="10" w="50" h="50" type="4" img="bomb.png" />
+		<Obj x="470" y="10" w="50" h="50" type="4" img="fireflower.png"></Obj>
+	</Item>
+</GamePanel>
+</BlockGame>
